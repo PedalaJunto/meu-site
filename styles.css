@@ -1,47 +1,47 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #1E1E1E;
-    color: #fff;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: 'Arial', sans-serif; /* Define a fonte para todo o corpo da página */
+    background-color: #1E1E1E; /* Define a cor de fundo do corpo da página */
+    color: #fff; /* Define a cor do texto para branco */
+    margin: 0; /* Remove as margens padrão do corpo da página */
+    display: flex; /* Configura o modelo de layout como flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    height: 100vh; /* Define a altura da página como 100% da altura da viewport */
 }
 
 .calculator {
-    background-color: #363636;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+    background-color: #363636; /* Define a cor de fundo da calculadora */
+    border-radius: 8px; /* Adiciona bordas arredondadas à calculadora */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil à calculadora */
+    padding: 20px; /* Adiciona preenchimento interno à calculadora */
+    text-align: center; /* Centraliza o texto dentro da calculadora */
 }
 
 label {
-    display: block;
-    margin-bottom: 10px;
+    display: block; /* Configura o rótulo como bloco para adicionar margem abaixo */
+    margin-bottom: 10px; /* Adiciona uma margem abaixo do rótulo */
 }
 
 input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
+    width: 100%; /* Define a largura do campo de entrada como 100% do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento interno ao campo de entrada */
+    box-sizing: border-box; /* Garante que o preenchimento não afete a largura total */
+    margin-bottom: 10px; /* Adiciona uma margem abaixo do campo de entrada */
 }
 
 button {
-    background-color: #FFA500;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+    background-color: #FFA500; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Adiciona um cursor apontador ao passar o mouse sobre o botão */
 }
 
 button:hover {
-    background-color: #FFD700;
+    background-color: #FFD700; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
 }
 
 #result {
-    margin-top: 20px;
-    font-weight: bold;
+    margin-top: 20px; /* Adiciona uma margem acima do elemento com o ID "result" */
+    font-weight: bold; /* Define o peso da fonte como negrito */
 }
