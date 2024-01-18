@@ -27,21 +27,6 @@ header p {
     margin-bottom: 20px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #FFD700; /* Amarelo para o botão de chamada para ação */
-    color: #1A1A1A; /* Texto escuro para o contraste no botão */
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #FFA500; /* Laranja ao passar o mouse sobre o botão */
-}
-
 .calculator {
     background-color: #34495E; /* Azul mais escuro para a calculadora */
     border-radius: 8px;
