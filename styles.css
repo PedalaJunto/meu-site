@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1A1A1A; /* Fundo escuro */
-    color: #FFFFFF; /* Texto branco para contraste */
+    background-color: #1A1A1A;
+    color: #FFFFFF;
     margin: 0;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #2C3E50; /* Azul escuro para o cabeçalho */
+    background-color: #2C3E50;
     color: #FFFFFF;
     border-bottom: 2px solid #FFD700;
 }
@@ -23,15 +23,15 @@ header h1 {
 }
 
 header p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 16px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    margin-bottom: 15px; /* Ajuste da margem inferior */
 }
 
 .calculator {
-    background-color: #34495E; /* Azul mais escuro para a calculadora */
+    background-color: #34495E;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 16px; /* Ajuste do preenchimento para dispositivos móveis */
     text-align: center;
     margin-top: 20px;
 }
@@ -49,7 +49,7 @@ input {
 }
 
 button {
-    background-color: #E74C3C; /* Vermelho escuro para o botão */
+    background-color: #E74C3C;
     color: #FFFFFF;
     padding: 10px;
     border: none;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #C0392B; /* Vermelho mais escuro ao passar o mouse sobre o botão */
+    background-color: #C0392B;
 }
 
 #result {
@@ -66,21 +66,21 @@ button:hover {
 }
 
 .call-to-action {
-    background-color: #E74C3C; /* Vermelho escuro para a chamada para ação */
+    background-color: #E74C3C;
     color: #FFFFFF;
-    padding: 30px;
+    padding: 20px; /* Ajuste do preenchimento para dispositivos móveis */
     text-align: center;
     border-radius: 8px;
     margin-top: 20px;
 }
 
 .call-to-action h2 {
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Ajuste da margem inferior */
 }
 
 .call-to-action p {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 14px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    margin-bottom: 10px; /* Ajuste da margem inferior */
 }
 
 .social-links {
@@ -92,7 +92,7 @@ button:hover {
 
 .social-link {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 10px; /* Ajuste da margem direita */
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
@@ -100,5 +100,45 @@ button:hover {
 }
 
 .social-link:hover {
-    color: #3498DB; /* Azul para os links sociais ao passar o mouse sobre eles */
+    color: #3498DB;
+}
+
+/* Estilos específicos para dispositivos de tela pequena */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    }
+
+    .cta-button {
+        font-size: 14px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    }
+
+    .calculator {
+        padding: 12px; /* Ajuste do preenchimento para dispositivos móveis */
+    }
+
+    label,
+    input {
+        font-size: 14px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    }
+
+    button {
+        padding: 8px; /* Ajuste do preenchimento para dispositivos móveis */
+    }
+
+    #result {
+        margin-top: 16px; /* Ajuste da margem superior para dispositivos móveis */
+    }
+
+    .call-to-action h2 {
+        font-size: 18px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    }
+
+    .call-to-action p {
+        font-size: 12px; /* Ajuste do tamanho da fonte para dispositivos móveis */
+    }
+
+    .social-link {
+        margin-right: 8px; /* Ajuste da margem direita para dispositivos móveis */
+    }
 }
