@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Calculadora de Pegada de Carbono</title>
+    <!-- Declaração do tipo de documento e idioma -->
+    <meta charset="UTF-8"> <!-- Configuração de codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração da viewport para dispositivos móveis -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+    <title>Calculadora de Pegada de Carbono</title> <!-- Título da página exibido na barra de título do navegador -->
 </head>
 <body>
+    <!-- Corpo da página -->
     <div class="calculator">
-        <h1>Calculadora de Pegada de Carbono</h1>
-        <label for="distance">Distância da Entrega (km):</label>
-        <input type="number" id="distance" placeholder="Digite a distância">
-        <button onclick="calcularPegada()">Calcular</button>
-        <div id="result"></div>
+        <!-- Div com a classe "calculator" para estilização -->
+        <h1>Calculadora de Pegada de Carbono</h1> <!-- Título principal da calculadora -->
+        <label for="distance">Distância da Entrega (km):</label> <!-- Rótulo para o campo de entrada de distância -->
+        <input type="number" id="distance" placeholder="Digite a distância"> <!-- Campo de entrada de distância -->
+        <button onclick="calcularPegada()">Calcular</button> <!-- Botão que aciona a função "calcularPegada()" ao ser clicado -->
+        <div id="result"></div> <!-- Div para exibir o resultado do cálculo -->
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Inclusão do arquivo JavaScript externo -->
 </body>
 </html>
