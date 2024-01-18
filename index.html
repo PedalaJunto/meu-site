@@ -8,31 +8,30 @@
 </head>
 <body>
     <header>
-        <!-- Cabeçalho da página -->
         <h1>Calculadora de Pegada de Carbono</h1>
         <p>Ajude a reduzir a pegada de carbono! Calcule suas emissões e pedale pelo futuro sustentável.</p>
     </header>
 
-    <div class="calculator" id="calculator">
-        <!-- Calculadora de Pegada de Carbono -->
-        <h2>Calculadora de Pegada de Carbono</h2>
-        <label for="distance">Distância da Entrega (km):</label>
-        <input type="number" id="distance" placeholder="Digite a distância">
-        <button onclick="calcularPegada()">Calcular</button>
-        <div id="result"></div>
-    </div>
+    <main>
+        <section class="calculator" id="calculator">
+            <h2>Calculadora de Pegada de Carbono</h2>
+            <label for="distance">Distância da Entrega (km):</label>
+            <input type="number" id="distance" placeholder="Digite a distância">
+            <button onclick="calcularPegada()">Calcular</button>
+            <div id="result"></div>
+        </section>
 
-    <section class="call-to-action">
-        <!-- Chamada para ação abaixo da calculadora -->
-        <h2>Reduza sua Pegada de Carbono, Junte-se ao Pedala Junto!</h2>
-        <p>Participe dos nossos eventos e aprenda mais sobre bicicleta, tecnologia e empreendedorismo.</p>
-        <p>Siga-nos nas redes sociais para ficar atualizado:</p>
-        <ul class="social-links">
-            <li><a href="#" target="_blank" class="social-link">Facebook</a></li>
-            <li><a href="#" target="_blank" class="social-link">Twitter</a></li>
-            <li><a href="#" target="_blank" class="social-link">Instagram</a></li>
-        </ul>
-    </section>
+        <section class="call-to-action">
+            <h2>Reduza sua Pegada de Carbono, Junte-se ao Pedala Junto!</h2>
+            <p>Participe dos nossos eventos e aprenda mais sobre bicicleta, tecnologia e empreendedorismo.</p>
+            <p>Siga-nos nas redes sociais para ficar atualizado:</p>
+            <ul class="social-links">
+                <li><a href="#" target="_blank" class="social-link">Facebook</a></li>
+                <li><a href="#" target="_blank" class="social-link">Twitter</a></li>
+                <li><a href="#" target="_blank" class="social-link">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
