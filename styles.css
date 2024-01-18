@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #FFFCF9; /* Fundo mais claro */
-    color: #E02020; /* Vermelho vibrante para o texto */
+    background-color: #1A1A1A; /* Fundo escuro */
+    color: #FFFFFF; /* Texto branco para contraste */
     margin: 0;
     display: flex;
     align-items: center;
@@ -13,9 +13,9 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #E02020; /* Vermelho para o cabeçalho */
-    color: #fff; /* Texto branco para o cabeçalho */
-    border-bottom: 2px solid #FFD700; /* Linha de separação amarela */
+    background-color: #2C3E50; /* Azul escuro para o cabeçalho */
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFD700;
 }
 
 header h1 {
@@ -31,7 +31,7 @@ header p {
     display: inline-block;
     padding: 10px 20px;
     background-color: #FFD700; /* Amarelo para o botão de chamada para ação */
-    color: #E02020; /* Vermelho para o texto do botão */
+    color: #1A1A1A; /* Texto escuro para o contraste no botão */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -43,7 +43,7 @@ header p {
 }
 
 .calculator {
-    background-color: #FFD700; /* Amarelo para a calculadora */
+    background-color: #34495E; /* Azul mais escuro para a calculadora */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -64,15 +64,15 @@ input {
 }
 
 button {
-    background-color: #E02020; /* Vermelho para o botão */
-    color: #fff;
+    background-color: #E74C3C; /* Vermelho escuro para o botão */
+    color: #FFFFFF;
     padding: 10px;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #FF4500; /* Vermelho mais escuro ao passar o mouse sobre o botão */
+    background-color: #C0392B; /* Vermelho mais escuro ao passar o mouse sobre o botão */
 }
 
 #result {
@@ -81,8 +81,8 @@ button:hover {
 }
 
 .call-to-action {
-    background-color: #FF4500; /* Vermelho mais escuro para a chamada para ação */
-    color: #fff;
+    background-color: #E74C3C; /* Vermelho escuro para a chamada para ação */
+    color: #FFFFFF;
     padding: 30px;
     text-align: center;
     border-radius: 8px;
@@ -108,12 +108,12 @@ button:hover {
 .social-link {
     display: inline-block;
     margin-right: 15px;
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #E02020; /* Vermelho mais escuro ao passar o mouse sobre os links sociais */
+    color: #3498DB; /* Azul para os links sociais ao passar o mouse sobre eles */
 }
