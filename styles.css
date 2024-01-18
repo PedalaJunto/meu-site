@@ -1,18 +1,21 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1E1E1E;
-    color: #fff;
+    background-color: #FFFCF9; /* Fundo mais claro */
+    color: #E02020; /* Vermelho vibrante para o texto */
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; /* Adicionado para alinhar os elementos verticalmente */
+    flex-direction: column;
     height: 100vh;
 }
 
 header {
     text-align: center;
     padding: 20px;
+    background-color: #E02020; /* Vermelho para o cabeçalho */
+    color: #fff; /* Texto branco para o cabeçalho */
+    border-bottom: 2px solid #FFD700; /* Linha de separação amarela */
 }
 
 header h1 {
@@ -24,8 +27,23 @@ header p {
     margin-bottom: 20px;
 }
 
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Amarelo para o botão de chamada para ação */
+    color: #E02020; /* Vermelho para o texto do botão */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFA500; /* Laranja ao passar o mouse sobre o botão */
+}
+
 .calculator {
-    background-color: #363636;
+    background-color: #FFD700; /* Amarelo para a calculadora */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -46,7 +64,7 @@ input {
 }
 
 button {
-    background-color: #FFA500;
+    background-color: #E02020; /* Vermelho para o botão */
     color: #fff;
     padding: 10px;
     border: none;
@@ -54,7 +72,7 @@ button {
 }
 
 button:hover {
-    background-color: #FFD700;
+    background-color: #FF4500; /* Vermelho mais escuro ao passar o mouse sobre o botão */
 }
 
 #result {
@@ -63,7 +81,7 @@ button:hover {
 }
 
 .call-to-action {
-    background-color: #363636;
+    background-color: #FF4500; /* Vermelho mais escuro para a chamada para ação */
     color: #fff;
     padding: 30px;
     text-align: center;
@@ -97,5 +115,5 @@ button:hover {
 }
 
 .social-link:hover {
-    color: #FFA500;
+    color: #E02020; /* Vermelho mais escuro ao passar o mouse sobre os links sociais */
 }
