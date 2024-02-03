@@ -1,171 +1,173 @@
 /* Estilos gerais para o corpo da página */
 body {
-    font-family: 'Arial', sans-serif; /* Define a fonte padrão */
-    background-color: #1A1A1A; /* Cor de fundo do corpo da página */
-    color: #FFFFFF; /* Cor do texto */
-    margin: 0; /* Remove a margem padrão do corpo */
-    display: flex; /* Usa um layout flexível para o corpo */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    flex-direction: column; /* Alinha os itens em coluna */
-    height: 100vh; /* Altura total da viewport */
+    font-family: 'Arial', sans-serif;
+    background-color: #1A1A1A;
+    color: #333; /* Tom de preto para o texto principal */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 /* Cabeçalho com imagem de fundo */
 .header-image {
-    background-image: url('https://github.com/PedalaJunto/meu-site/blob/main/pedala_junto_oficina_mecnica_bicycle_backgr%20(1).jpg?raw=true'); /* Imagem de fundo do cabeçalho */
-    background-size: cover; /* Cobrir todo o elemento mantendo a proporção */
-    background-position: center; /* Centralizar a imagem no elemento */
-    height: 200px; /* Altura do cabeçalho */
-    display: flex; /* Usa um layout flexível para o cabeçalho */
-    flex-direction: column; /* Alinha os itens em coluna */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    background-image: url('https://github.com/PedalaJunto/meu-site/blob/main/pedala_junto_oficina_mecnica_bicycle_backgr%20(1).jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Estilos para o cabeçalho */
 header {
-    text-align: center; /* Centraliza o texto no cabeçalho */
-    padding: 20px; /* Espaçamento interno do cabeçalho */
-    background-color: #2C3E50; /* Cor de fundo do cabeçalho */
-    color: #FFFFFF; /* Cor do texto no cabeçalho */
-    border-bottom: 2px solid #FFD700; /* Borda inferior dourada no cabeçalho */
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: #333; /* Tom de preto para o texto no cabeçalho */
+    border-bottom: 2px solid rgba(255, 215, 0, 0.5); /* Borda semi-transparente dourada no cabeçalho */
 }
 
 header h1 {
-    margin-bottom: 10px; /* Espaçamento inferior do título no cabeçalho */
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 16px; /* Tamanho da fonte do texto no cabeçalho */
-    margin-bottom: 15px; /* Espaçamento inferior do parágrafo no cabeçalho */
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 /* Estilos para a seção da calculadora */
 .calculator {
-    background-color: #34495E; /* Cor de fundo da seção da calculadora */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    padding: 16px; /* Espaçamento interno da seção da calculadora */
-    text-align: center; /* Centraliza o conteúdo na seção */
-    margin-top: 20px; /* Espaçamento superior da seção da calculadora */
+    background-color: #34495E;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Tom de preto para o texto na seção da calculadora */
+    border: 2px solid rgba(51, 51, 51, 0.5); /* Borda semi-transparente */
 }
 
 label {
-    display: block; /* Exibe o rótulo como bloco (em uma nova linha) */
-    margin-bottom: 10px; /* Espaçamento inferior do rótulo */
+    display: block;
+    margin-bottom: 10px;
 }
 
 input {
-    width: 100%; /* Largura total do elemento de entrada */
-    padding: 10px; /* Espaçamento interno do elemento de entrada */
-    box-sizing: border-box; /* Inclui as bordas e o preenchimento na largura total */
-    margin-bottom: 10px; /* Espaçamento inferior do elemento de entrada */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 button {
-    background-color: #E74C3C; /* Cor de fundo do botão */
-    color: #FFFFFF; /* Cor do texto no botão */
-    padding: 10px; /* Espaçamento interno do botão */
-    border: none; /* Remove a borda padrão do botão */
-    cursor: pointer; /* Mostra um cursor de ponteiro ao passar sobre o botão */
+    background-color: #E74C3C;
+    color: #333; /* Tom de preto para o texto no botão */
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #C0392B; /* Cor de fundo do botão ao passar o mouse sobre ele */
+    background-color: #C0392B;
 }
 
 #result {
-    margin-top: 20px; /* Espaçamento superior do resultado */
-    font-weight: bold; /* Texto em negrito */
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 /* Rodapé com imagem de fundo */
 .footer-image {
-    background-image: url('https://github.com/PedalaJunto/meu-site/blob/main/pedala_junto_oficina_mecnica_bicycle_typog%20(1).jpg?raw=true'); /* Imagem de fundo do rodapé */
-    background-size: cover; /* Cobrir todo o elemento mantendo a proporção */
-    background-position: center; /* Centralizar a imagem no elemento */
-    height: 200px; /* Altura do rodapé */
-    display: flex; /* Usa um layout flexível para o rodapé */
-    flex-direction: column; /* Alinha os itens em coluna */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    background-image: url('https://github.com/PedalaJunto/meu-site/blob/main/pedala_junto_oficina_mecnica_bicycle_typog%20(1).jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .call-to-action {
-    background-color: #E74C3C; /* Cor de fundo da chamada de ação */
-    color: #FFFFFF; /* Cor do texto na chamada de ação */
-    padding: 20px; /* Espaçamento interno da chamada de ação */
-    text-align: center; /* Centraliza o conteúdo na chamada de ação */
-    border-radius: 8px; /* Bordas arredondadas */
-    margin-top: 20px; /* Espaçamento superior da chamada de ação */
+    background-color: #E74C3C;
+    color: #333; /* Tom de preto para o texto na chamada de ação */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 .call-to-action h2 {
-    margin-bottom: 15px; /* Espaçamento inferior do título na chamada de ação */
+    margin-bottom: 15px;
 }
 
 .call-to-action p {
-    font-size: 14px; /* Tamanho da fonte do texto na chamada de ação */
-    margin-bottom: 10px; /* Espaçamento inferior do parágrafo na chamada de ação */
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .social-links {
-    list-style: none; /* Remove a lista de marcadores padrão */
-    padding: 0; /* Remove o preenchimento da lista */
-    display: flex; /* Usa um layout flexível para os links sociais */
-    justify-content: center; /* Centraliza os links horizontalmente */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .social-link {
-    display: inline-block; /* Exibe os links social em linha */
-    margin-right: 10px; /* Espaçamento direito entre os links sociais */
-    color: #FFFFFF; /* Cor do texto dos links sociais */
-    text-decoration: none; /* Remove a decoração do texto dos links sociais */
-    font-weight: bold; /* Texto em negrito nos links sociais */
-    transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse sobre os links sociais */
+    display: inline-block;
+    margin-right: 10px;
+    color: #333; /* Tom de preto para o texto nos links sociais */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #3498DB; /* Cor dos links sociais ao passar o mouse sobre eles */
+    color: #3498DB;
 }
 
 /* Estilos específicos para dispositivos de tela pequena */
 @media only screen and (max-width: 600px) {
     header h1 {
-        font-size: 24px; /* Tamanho da fonte do título no cabeçalho para dispositivos móveis */
+        font-size: 24px;
     }
 
     .cta-button {
-        font-size: 14px; /* Tamanho da fonte do botão de chamada de ação para dispositivos móveis */
+        font-size: 14px;
     }
 
     .calculator {
-        padding: 12px; /* Espaçamento interno da seção da calculadora para dispositivos móveis */
+        padding: 12px;
     }
 
     label,
     input {
-        font-size: 14px; /* Tamanho da fonte do rótulo e do campo de entrada para dispositivos móveis */
+        font-size: 14px;
     }
 
     button {
-        padding: 8px; /* Espaçamento interno do botão para dispositivos móveis */
+        padding: 8px;
     }
 
     #result {
-        margin-top: 16px; /* Espaçamento superior do resultado para dispositivos móveis */
+        margin-top: 16px;
     }
 
     .call-to-action h2 {
-        font-size: 18px; /* Tamanho da fonte do título na chamada de ação para dispositivos móveis */
+        font-size: 18px;
     }
 
     .call-to-action p {
-        font-size: 12px; /* Tamanho da fonte do texto na chamada de ação para dispositivos móveis */
+        font-size: 12px;
     }
 
     .social-link {
-        margin-right: 8px; /* Espaçamento direito entre os links sociais para dispositivos móveis */
+        margin-right: 8px;
     }
 }
