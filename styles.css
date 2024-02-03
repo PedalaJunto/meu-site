@@ -28,7 +28,7 @@ header {
     text-align: center;
     padding: 20px;
     background-color: rgba(44, 62, 80, 0.8); /* Cor de fundo com 80% de transparência */
-    color: #FFF; /* Cor branca para o texto no cabeçalho */
+    color: #000; /* Cor branca para o texto no cabeçalho */
     border-bottom: 2px solid rgba(255, 215, 0, 0.5); /* Borda semi-transparente dourada no cabeçalho */
 }
 
