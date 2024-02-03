@@ -29,6 +29,7 @@ header {
     padding: 20px; /* Adiciona espaço interno ao redor do conteúdo do cabeçalho */
     background-color: rgba(44, 62, 80, 0.8); /* Cor de fundo com 80% de transparência */
     color: #000; /* Cor do texto no cabeçalho */
+    font-weight: bold; /* Adiciona negrito ao texto no cabeçalho */
     -webkit-text-stroke: 1px white; /* Adiciona contorno branco nas letras (para navegadores WebKit, como o Chrome e o Safari) */
     border-bottom: 2px solid rgba(255, 215, 0, 0.5); /* Borda semi-transparente dourada no cabeçalho */
     margin-bottom: 10px; /* Espaço inferior reduzido */
