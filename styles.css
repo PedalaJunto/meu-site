@@ -13,7 +13,7 @@ body {
 
 /* Cabeçalho com imagem de fundo */
 .header-image {
-    background-image: url('URL_DA_IMAGEM_CABECALHO'); /* Imagem de fundo do cabeçalho */
+    background-image: url('https://github.com/PedalaJunto/meu-site/blob/main/pedala_junto_oficina_mecnica_bicycle_backgr%20(1).jpg?raw=true'); /* Imagem de fundo do cabeçalho */
     background-size: cover; /* Cobrir todo o elemento mantendo a proporção */
     background-position: center; /* Centralizar a imagem no elemento */
     height: 200px; /* Altura do cabeçalho */
@@ -82,7 +82,7 @@ button:hover {
 
 /* Rodapé com imagem de fundo */
 .footer-image {
-    background-image: url('URL_DA_IMAGEM_RODAPE'); /* Imagem de fundo do rodapé */
+    background-image: url('https://github.com/PedalaJunto/meu-site/blob/main/pedala_junto_oficina_mecnica_bicycle_typog%20(1).jpg?raw=true'); /* Imagem de fundo do rodapé */
     background-size: cover; /* Cobrir todo o elemento mantendo a proporção */
     background-position: center; /* Centralizar a imagem no elemento */
     height: 200px; /* Altura do rodapé */
