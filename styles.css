@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #1A1A1A;
-    color: #333; /* Tom de preto para o texto principal */
+    color: #000; /* Cor preta para o texto principal */
     margin: 0;
     display: flex;
     align-items: center;
@@ -27,8 +27,8 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #2C3E50;
-    color: #333; /* Tom de preto para o texto no cabeçalho */
+    background-color: rgba(44, 62, 80, 0.8); /* Cor de fundo com 80% de transparência */
+    color: #FFF; /* Cor branca para o texto no cabeçalho */
     border-bottom: 2px solid rgba(255, 215, 0, 0.5); /* Borda semi-transparente dourada no cabeçalho */
 }
 
@@ -49,8 +49,8 @@ header p {
     padding: 16px;
     text-align: center;
     margin-top: 20px;
-    color: #333; /* Tom de preto para o texto na seção da calculadora */
-    border: 2px solid rgba(51, 51, 51, 0.5); /* Borda semi-transparente */
+    color: #000; /* Cor preta para o texto na seção da calculadora */
+    border: 2px solid rgba(0, 0, 0, 0.5); /* Borda semi-transparente */
 }
 
 label {
@@ -67,7 +67,7 @@ input {
 
 button {
     background-color: #E74C3C;
-    color: #333; /* Tom de preto para o texto no botão */
+    color: #000; /* Cor preta para o texto no botão */
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -94,9 +94,17 @@ button:hover {
     justify-content: center;
 }
 
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(44, 62, 80, 0.8); /* Cor de fundo com 80% de transparência */
+    color: #FFF; /* Cor branca para o texto no rodapé */
+}
+
 .call-to-action {
     background-color: #E74C3C;
-    color: #333; /* Tom de preto para o texto na chamada de ação */
+    color: #000; /* Cor preta para o texto na chamada de ação */
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -122,14 +130,14 @@ button:hover {
 .social-link {
     display: inline-block;
     margin-right: 10px;
-    color: #333; /* Tom de preto para o texto nos links sociais */
+    color: #ff2800; /* Cor vermelha para o texto nos links sociais */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #3498DB;
+    color: #3498DB; /*azul*/
 }
 
 /* Estilos específicos para dispositivos de tela pequena */
